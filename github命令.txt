@@ -1,0 +1,25 @@
+1.pwd 查看目录
+
+2.ls  查看目录下的文件
+
+3.cd .\Voicebook_Android\   跳转到目录Voicebook_Android\ 
+
+4.git clone   git clone https://github.com/Kingofhevil/minds.git   克隆
+
+5.git status  获取当前状态
+  git diff    app/src/main/java/com/voibook/voicebook/activity/login/IntroduceActivity.java   
+              获取详细修改信息
+
+6.git log     修改历史日志
+
+7.git pull    获取项目（拉）
+
+8.git add .   把修改后的文件保存到暂存区
+  git commit -m"test commit with bash"  备注文件“test commit with bash”并保存到本地
+  git push origin master   上传修改文件
+
+9. git reset --hard origin/master
+
+10.git branch -a 查看分支
+    git checkout video 查看video分支
+
